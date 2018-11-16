@@ -112,4 +112,17 @@ var object = {
 displayStuff should tell you when your array is late WITH IF STATEMENTS
 //if you write 'object.displayStuff()' onto repl line, you will get back "The array is empty!"
 //you can use object.addKey("blahblahblah") to add something and it will display it via the for loop
-// if you then use object.deleteKey(0) you'll get "The array is empty!" againS
+// if you then use object.deleteKey(0) you'll get "The array is empty!" again
+
+
+--------------------------------
+
+if (condition) {
+    //code that runs if condition is true
+} else {
+    //code that runs if condition is false
+}
+
+
+the above is the most basic example of an if statement at work
+}
