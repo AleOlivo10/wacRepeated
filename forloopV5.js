@@ -178,3 +178,5 @@ var object = {
 
 COULDNT MAKE THIS WORK ON REPL LINE BECAUSE i KEPT GETTING '...' AFTER i ENTERED, INSTEAD OF undefined
 
+if I could make it work, I would need to use addKey to add items and then toggleCompleted to switch their status
+
