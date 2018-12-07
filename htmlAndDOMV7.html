@@ -1,8 +1,16 @@
+<!--1. we want to get access to the display items button-->
+<!--var displayItems = document.getElementById("displayItemsButton")-->
+<!--console.log(displayItemsButton);-->
+<!--2. we want to run displayKey method when someone clicks the display items button-->
+
+
+
+
 <DOCTYPE html>
     <html>
         <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js"></script>  put this at the bottom. see if that helps
     
         </head>
         <body>
@@ -10,9 +18,13 @@
             
     <h1>to-do list</h1>
         
-    <button>Display to-dos</button>    
+    <button id ="displayItemsButton">Display to-dos</button>
     
     <button>Toggle All</button>    
+    
+    <script>
+    var displayItems = document.getElementById("displayItemsButton")
+    </script>
     
         </body>
 
@@ -20,3 +32,5 @@
         
         
         </html>
+        
+        
